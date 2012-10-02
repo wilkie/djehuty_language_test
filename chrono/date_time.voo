@@ -1,0 +1,23 @@
+module chrono.date_time;
+
+// Should public be default?
+public:
+
+struct DateTime {
+  month:        Month
+  day:          Day
+  year:         long
+  microseconds: long
+}
+
+function DateTime.isLeapYear()           : bool
+function DateTime.weekDay()              : Weekday
+function DateTime.dayOfYear()            : uint
+function DateTime.time()                 : Time
+function DateTime.hour()                 : long
+function DateTime.minute()               : long
+function DateTime.second()               : long
+function DateTime.milliseconds()         : long
+function DateTime.compare(b: DateTime)   : long
+function DateTime.subtract(b: DateTime)  : long
+function DateTime.isEqualTo(b: DateTime) : bool

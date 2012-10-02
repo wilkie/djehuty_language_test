@@ -1,0 +1,16 @@
+module chrono.time;
+
+public:
+
+struct Time {
+  microseconds: long
+}
+
+function Time.hour()             : long
+function minute()                : long
+function Time.second()           : long
+function Time.milliseconds()     : long
+function Time.add(b: Time)       : Time
+function Time.subtract(b: Time)  : Time
+function Time.compare(b: Time)   : int
+function Time.isEqualTo(b: Time) : bool

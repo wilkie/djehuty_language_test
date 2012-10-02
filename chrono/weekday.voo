@@ -1,0 +1,11 @@
+module chrono.weekday;
+
+enum Weekday : uint {
+  Sunday
+  Monday
+  Tuesday
+  Wednesday
+  Thursday
+  Friday
+  Saturday
+}

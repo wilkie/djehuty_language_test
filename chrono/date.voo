@@ -1,0 +1,17 @@
+module chrono.date;
+
+import chrono.day;
+import chrono.month;
+
+// Should public be default?
+public:
+
+struct Date {
+  month: Month
+  day:   Day
+  year:  long
+}
+
+function Date.isLeapYear() : bool
+function Date.weekDay()    : Weekday
+function Date.dayOfYear()  : uint
