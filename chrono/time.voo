@@ -1,4 +1,4 @@
-module chrono.time;
+module chrono.time
 
 public:
 
@@ -6,8 +6,12 @@ struct Time {
   microseconds: long
 }
 
+// Module functions
+function now()                   : Time
+
+// Struct functions
 function Time.hour()             : long
-function minute()                : long
+function Time.minute()           : long
 function Time.second()           : long
 function Time.milliseconds()     : long
 function Time.add(b: Time)       : Time

@@ -1,4 +1,4 @@
-module chrono.month;
+module chrono.month
 
 enum Month : uint {
   January

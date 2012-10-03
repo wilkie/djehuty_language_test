@@ -1,4 +1,4 @@
-module chrono.weekday;
+module chrono.weekday
 
 enum Weekday : uint {
   Sunday

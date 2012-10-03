@@ -1,4 +1,4 @@
-module chrono.date_time;
+module chrono.date_time
 
 // Should public be default?
 public:
@@ -10,6 +10,10 @@ struct DateTime {
   microseconds: long
 }
 
+// Module functions
+function now()                           : DateTime
+
+// Struct functions
 function DateTime.isLeapYear()           : bool
 function DateTime.weekDay()              : Weekday
 function DateTime.dayOfYear()            : uint
